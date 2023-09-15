@@ -1,3 +1,3 @@
 # Unity MAI Sandbox'23
 
-[Game-Design Document]()
+Репозиторий-песочница в рамках курса.
