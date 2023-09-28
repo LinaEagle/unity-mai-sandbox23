@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Project.Homework.HW230914
+namespace Project.Classes._230914
 {
     public class ObjectBSpawner : MonoBehaviour
     {

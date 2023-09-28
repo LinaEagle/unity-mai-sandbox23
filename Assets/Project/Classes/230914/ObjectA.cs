@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Project.Homework.HW230914
+namespace Project.Classes._230914
 {
     public class ObjectA : MonoBehaviour
     {
@@ -11,7 +11,7 @@ namespace Project.Homework.HW230914
         private void Update()
         {
             Move();
-            CheckDistance();
+            CheckDistanceToSelfDestroy();
         }
         
         private void Move()
@@ -25,7 +25,7 @@ namespace Project.Homework.HW230914
             transform.position += speed * Time.deltaTime * direction;
         }
         
-        private void CheckDistance()
+        private void CheckDistanceToSelfDestroy()
         {
             var other = FindObjectOfType<ObjectB>();
             if (other is not null)
