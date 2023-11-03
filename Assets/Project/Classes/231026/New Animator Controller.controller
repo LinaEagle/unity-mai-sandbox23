@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: jump
-  m_Speed: 1
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -43,9 +43,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 1.0042961
-  m_TransitionOffset: 0.003412187
-  m_ExitTime: 0.4664244
+  m_TransitionDuration: 0.3677053
+  m_TransitionOffset: 0.017361673
+  m_ExitTime: 0.63338697
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
